@@ -7,4 +7,3 @@ name = input("What is your name? ")
 print("Hello, " + name + "! Nice to meet you.")
 
 
-print("I am not be able to fight anymore!")
