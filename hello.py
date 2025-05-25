@@ -5,13 +5,25 @@ name = input("What is your name? ")
 age = input("How old are you? ")
 email = input("Please insert a valid email: ")
 address = input("What is your address? ")
-bool Married = input("Are you marrid ?")
+
+married_input = input("Are you married (yes or no)? ")
+
+# Convert to boolean
+if married_input.lower() == "yes":
+    married = True
+else:
+    married = False
+
 # Define the function
-def print_info(Name, age, email, address , bool married):
-    print("Hello, " + Name + "! Nice to meet you.")
+def print_info(name, age, email, address, married):
+    print("Hello, " + name + "! Nice to meet you.")
     print("My Age: " + age + ".")
     print("My address is: " + address + ".")
     print("Your Email address is: " + email + ".")
-    print("Your status is : " + married + ".")
+    
+    # Convert boolean to string for printing
+    status = "Married" if married else "Not Married"
+    print("Your status is: " + status + ".")
+
 # Call the function
-print_info(name, age, email, address,Married)
+print_info(name, age, email, address, married)
