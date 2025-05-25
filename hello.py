@@ -22,7 +22,11 @@ def print_info(name, age, email, address, married):
     print("Your Email address is: " + email + ".")
     
     # Convert boolean to string for printing
-    status = "Married" if married else "Not Married"
+    if married :
+        status = "Married"
+    else :
+        status = "Single"
+    
     print("Your status is: " + status + ".")
 
 # Call the function
