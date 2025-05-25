@@ -11,5 +11,3 @@ print("My Age : , " + Age + ".")
 
 print("My address is : " + Address + "." )
 
-
-
