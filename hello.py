@@ -1,5 +1,5 @@
 # Simple Python Program with Basic Input Validation
-def WeclomeMessage()
+def WeclomeMessage():
   print("Welcome to our app.")
     
 def is_valid_name(prompt):
@@ -42,6 +42,8 @@ def get_marital_status(prompt):
         print("Please answer with 'yes' or 'no'.")
 
 # Get validated inputs
+WeclomeMessage() 
+
 name = is_valid_name("What is your name? ")
 age = get_valid_age("How old are you? ")
 email = get_valid_email("Please insert a valid email: ")
@@ -50,7 +52,7 @@ married = get_marital_status("Are you married (yes or no)? ")
 
 # Define the function
 def print_info(name, age, email, address, married):
-    WeclomeMessage() 
+
     print(f"\nHello, {name}! Nice to meet you.")
     print(f"My Age: {age}.")
     print(f"My address is: {address}.")
