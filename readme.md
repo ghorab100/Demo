@@ -1,4 +1,4 @@
-🐍 Simple Python Input Validation Program
+ Simple Python Input Validation Program
 This is a simple Python terminal-based application that collects user information with input validation. The app ensures that the user inputs are correct and formatted properly before continuing.
 ✅ Features
 •	Welcome message
@@ -11,7 +11,7 @@ The app asks the user for:
 •	👤 Name
 o	Must contain only letters and spaces
 o	Must start with a capital letter
-•	🎂 Age
+•	 Age
 o	Must be a number between 1 and 99
 •	📧 Email
 o	Must include @ and . with at least 5 characters
